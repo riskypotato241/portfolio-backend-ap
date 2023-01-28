@@ -74,7 +74,7 @@ public WebMvcConfigurer corsConfigurer() {
     public void addCorsMappings(CorsRegistry registry) {
       registry.addMapping("/**")
          /* en allowedOrigins va la URL del backend y de localhost para poder hacer pruebas*/
-        .allowedOrigins("htt ps://miportfoliobackend.firebaseapp.com", "ht tp://localhost:4200/")
+        .allowedOrigins("https://testingback.onrender.com", "http://localhost:4200/")
         /* Aqui va los métodos permitidos, puse asterisco para que se permitan todos porque por defecto solo permite get*/
         .allowedMethods("*");
     }
