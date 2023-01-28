@@ -24,11 +24,11 @@ import org.springframework.web.bind.annotation.RestController;
  * @author maxim
  */ 
 @RestController
-@CrossOrigin(origins = "https://portfolio-63d64.web.app")
+@CrossOrigin(origins ="https://portfolio-63d64.web.app")
 public class PersonaController {    
     @Autowired IPersonaService ipersonaService;
     
-    @GetMapping("personas/traer")
+    @GetMapping("/personas/traer")
     public List<Persona> getPersona(){
         return ipersonaService.getPersona();
     }
