@@ -23,6 +23,7 @@ com\portfolio\portfolio\Security\Service\RolService.class
 com\portfolio\portfolio\Security\Dto\LoginUsuario.class
 com\portfolio\portfolio\Dto\dtoExperiencia.class
 com\portfolio\portfolio\Controller\CExperiencia.class
+com\portfolio\portfolio\Security\MainSecurity$1.class
 com\portfolio\portfolio\Controller\PersonaController.class
 com\portfolio\portfolio\Entity\Experiencia.class
 com\portfolio\portfolio\Security\Repository\iRolRepository.class
